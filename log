@@ -33,3 +33,9 @@ exercises.c:14:7: error: unused variable ‘mayorN’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 f3d20af
+Thu 14 Mar 2024 08:51:20 PM UTC: 
+ exercises.c | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+ tests:  0|6
+total_score: 10/70
+78a55c5

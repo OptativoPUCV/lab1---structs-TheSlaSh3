@@ -1,4 +1,4 @@
-a #include <ctype.h>
+#include <ctype.h>
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,15 +11,15 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 */
 int findMax(int arr[], int size) 
 { 
-  int mayorN = arr[i + 1];
-  for (int i = 1; i < size; i++)
+  int mayor = arr[0];
+  for (int i = 0 ; i < size ; i++)
     {
-      if (arr[i] < arr[i + 1])
+      if (arr[i] > mayor)
       {
-        int mayorN = arr[i + 1];
+        mayor = arr[i];
       }
     }
-  return 0; 
+  return mayor; 
 }
 
 /*
