@@ -45,3 +45,15 @@ Thu 14 Mar 2024 08:56:11 PM UTC:
  tests:  0|5
 total_score: 20/70
 f7becf4
+Thu 14 Mar 2024 09:00:41 PM UTC: 
+ exercises.c | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:32:7: error: array size missing in ‘temp’
+   32 |   int temp[];
+      |       ^~~~
+exercises.c:32:7: error: variable ‘temp’ set but not used [-Werror=unused-but-set-variable]
+cc1: all warnings being treated as errors
+Compilation failed
+32dd6ed
