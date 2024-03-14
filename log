@@ -57,3 +57,19 @@ exercises.c:32:7: error: variable ‘temp’ set but not used [-Werror=unused-bu
 cc1: all warnings being treated as errors
 Compilation failed
 32dd6ed
+Thu 14 Mar 2024 09:21:23 PM UTC: 
+ exercises.c | 18 +++++++++++++++++-
+ 1 file changed, 17 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:32:7: error: array size missing in ‘temp’
+   32 |   int temp[];
+      |       ^~~~
+exercises.c:32:7: error: variable ‘temp’ set but not used [-Werror=unused-but-set-variable]
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:62:10: error: function returns address of local variable [-Werror=return-local-addr]
+   62 |   return newARR;
+      |          ^~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+28a8c0c
