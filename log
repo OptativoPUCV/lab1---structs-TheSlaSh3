@@ -392,3 +392,16 @@ exercises.c:83:18: error: expected expression before ‘]’ token
 cc1: all warnings being treated as errors
 Compilation failed
 58c7819
+Fri 15 Mar 2024 01:28:35 PM UTC: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:81:16: error: expected expression before ‘]’ token
+   81 |         result[] += arr1[i];
+      |                ^
+exercises.c:85:16: error: expected expression before ‘]’ token
+   85 |         result[] += arr2[i]
+      |                ^
+Compilation failed
+dd48e74
