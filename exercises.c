@@ -33,7 +33,7 @@ void reverseArray(int arr[], int size)
     {
       int aux = arr[i]; //auxiliar que guarda el primer numero de la iteracion
       arr[i] = arr[size -1-i]; // Al primer numero de la iteracion se intercambia con el ultimo del                                   arr
-      arr[size-1-i] = aux;
+      arr[size-1-i] = aux; //El numero cambiado se manda a la posicion requerida.
     }
   
 }
