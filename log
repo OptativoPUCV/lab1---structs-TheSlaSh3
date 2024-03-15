@@ -328,3 +328,14 @@ exercises.c:34:11: error: unused variable ‘aux’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 33fdedf
+Fri 15 Mar 2024 01:08:22 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:34:11: error: unused variable ‘aux’ [-Werror=unused-variable]
+   34 |       int aux = arr[i]; //auxiliar que guarda el primer numero de la iteracion
+      |           ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+8adb93d
