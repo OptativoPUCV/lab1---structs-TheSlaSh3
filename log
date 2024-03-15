@@ -294,3 +294,20 @@ Thu 14 Mar 2024 09:26:23 PM UTC:
  tests:  0|5
 total_score: 20/70
 a10fc61
+Fri 15 Mar 2024 01:07:50 PM UTC: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘reverseArray’:
+exercises.c:35:30: error: expected ‘;’ before ‘}’ token
+   35 |       arr[i] = arr[size -1-i] // Al primer numero de la iteracion se intercambia con el ultimo del                                   arr[]
+      |                              ^
+      |                              ;
+   36 |     }
+      |     ~                         
+exercises.c:34:11: error: unused variable ‘aux’ [-Werror=unused-variable]
+   34 |       int aux = arr[i]; //auxiliar que guarda el primer numero de la iteracion
+      |           ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+495e2b3
