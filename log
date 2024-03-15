@@ -405,3 +405,16 @@ exercises.c:85:16: error: expected expression before ‘]’ token
       |                ^
 Compilation failed
 dd48e74
+Fri 15 Mar 2024 01:28:42 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:85:29: error: expected ‘;’ before ‘}’ token
+   85 |         result[i] += arr2[i]
+      |                             ^
+      |                             ;
+   86 |       }
+      |       ~                      
+Compilation failed
+36a3bcf
