@@ -362,3 +362,16 @@ Fri 15 Mar 2024 01:12:28 PM UTC:
  tests:  0|4
 total_score: 30/70
 aad700d
+Fri 15 Mar 2024 01:20:36 PM UTC: 
+ exercises.c | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:81:18: error: expected expression before ‘]’ token
+   81 |           result[] += arr1[i];
+      |                  ^
+exercises.c:82:18: error: expected expression before ‘]’ token
+   82 |           result[] += arr2[k];
+      |                  ^
+Compilation failed
+e11b48b
