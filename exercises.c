@@ -119,9 +119,14 @@ typedef struct {
 } Libro;
 
 void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
-                      int anioNacimiento, int anioPublicacion) {
-  
-                      }
+                      int anioNacimiento, int anioPublicacion) 
+{
+  strcopy(libro->titulo, titulo); //Copio el titulo 
+  strcopy(libro->autor.nombre, nombreAutor); //copio el nombre del autor y lo copio a la var.
+
+  libro->autor.anioNacimiento = anioNacimiento;
+  libro->anioPublicacion = anioPublicacion;
+}
 
 /*
 Ejercicio 7: Lista enlazada de números
