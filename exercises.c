@@ -121,8 +121,8 @@ typedef struct {
 void inicializarLibro(Libro *libro, const char *titulo, const char *nombreAutor,
                       int anioNacimiento, int anioPublicacion) 
 {
-  strcopy(libro->titulo, titulo); //Copio el titulo 
-  strcopy(libro->autor.nombre, nombreAutor); //copio el nombre del autor y lo copio a la var.
+  strcpy(libro->titulo, titulo); //Copio el titulo 
+  strcpy(libro->autor.nombre, nombreAutor); //copio el nombre del autor y lo copio a la var.
 
   libro->autor.anioNacimiento = anioNacimiento;
   libro->anioPublicacion = anioPublicacion;
